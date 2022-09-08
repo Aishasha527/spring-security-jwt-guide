@@ -13,7 +13,7 @@ Spring Security 应该属于 Spring 全家桶中学习曲线比较陡峭的几�
 
 关于这种认证方式更详细的过程如下：
 
-![Session Based Authentication flow](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/Session-Based-Authentication-flow.png)
+![Session Based Authentication flow](/Users/yandi.lin/Documents/empc_self_learning/spring-security-jwt-guide/pictures/Session-Based-Authentication-flow.png)
 
 1. 用户向服务器发送用户名和密码用于登陆系统。
 2. 服务器验证通过后，服务器为用户创建一个 Session，并将 Session信息存储 起来。
@@ -27,7 +27,7 @@ Spring Security 应该属于 Spring 全家桶中学习曲线比较陡峭的几�
 
 关于这种认证方式更详细的过程如下：
 
-![Token Based Authentication flow](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/Token-Based-Authentication.png)
+![Token Based Authentication flow](/Users/yandi.lin/Documents/empc_self_learning/spring-security-jwt-guide/pictures/Token-Based-Authentication.png)
 
 1. 用户向服务器发送用户名和密码用于登陆系统。
 2. 身份验证服务响应并返回了签名的 JWT，上面包含了用户是谁的内容。
